@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+bool checkNumber(int num);
+
 int main()
 {
     int x;
@@ -26,4 +28,9 @@ int main()
             cout << "Your number is 0 ";
         }
     }
+}
+
+
+bool checkNumber(int num){
+    
 }
